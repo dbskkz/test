@@ -1,0 +1,144 @@
+.person{
+    width: 250px;
+    height: 250px;
+    background-image: url("./image/user_3917559.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.r{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.frame{
+    display: flex;
+    /*  justify-content: center; */
+    position: relative;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlJaNXWx64zYpEQvAARexEQooa-JsiW7MxKQ&s");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.left{
+    width: 20%;
+    background-color: #c7abca;
+    padding: 10px;
+    position:fixed;
+    top: 0%;
+}
+.right{
+    /* background-image: url("");
+    background-size: contain; */
+    width: auto;
+    height: auto;
+    padding: 20px;
+    position: relative;
+    left: 21%
+}
+.prview{
+    height: 200px;
+}
+.preic{
+    width: 40px;
+    height: 40px;
+    background-image: url("./image/telephone.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.preic2{
+    background-image: url("./image/email.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+}
+.preic3{
+    background-image: url("./image/calendar-dot.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+}
+.item{
+    display: flex;
+    align-items: center;
+    gap: 20px; /* 設定圖片和 div 之間的間距 */
+}
+.context{
+    justify-self: left;
+    font-size: 30px;
+}
+.sex{
+    width: 100px;
+    height: 100px;
+    background-image: url("./image/female.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.stitle{
+    font-size: 100px;
+}
+.info{
+    width: auto;
+    height: 300px;
+    /* background: #b694b2ed; */
+}
+p{
+    margin: 5px;
+}
+.pic{
+  width: 70px;
+  height: 70px;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
+
+.stext{
+    font-size: 10px;
+}
+.disflex{
+    display: flex;
+    /*  justify-content: center; */
+    position: relative;
+}
+.pictur{
+  width: 395px;
+  height: 300px;
+  background-image: url("./image/113156.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.pictur2{
+  width: 395px;
+  height: 300px;
+  background-image: url("./image/fix.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.pictur3{
+  width: 395px;
+  height: 300px;
+  background-image: url("./image/la.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.pictur4{
+  width: 395px;
+  height: 300px;
+  background-image: url("./image/work.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.pictur5{
+  width: 395px;
+  height: 300px;
+  background-image: url("./image/Interest.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.list{
+    font-size: 20px;
+}
+.mr{
+    margin-left:10px;
+}
